@@ -7,3 +7,9 @@ html{
     background-repeat:no-repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
+h1{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 4em;
+}
