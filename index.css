@@ -24,8 +24,8 @@ h2{
     margin-top: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 4.7%;
     border-color: red;
     margin-left: 1%;
@@ -120,4 +120,28 @@ button:hover{
 
 .quit:hover{
     background-color: #ffd7d7;
+}
+
+.dif{
+    border-color: black;
+}
+
+.dif:hover{
+    background-color: gray;
+}
+
+.moy{
+    border-color: saddlebrown;
+}
+
+.moy:hover{
+    background-color: burlywood;
+}
+
+.fac{
+    border-color: orange;
+}
+
+.fac:hover{
+    background-color: peachpuff;
 }
