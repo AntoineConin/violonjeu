@@ -20,6 +20,30 @@ h2{
     font-size: 3.5em;
 }
 
+.bouton{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10%;
+    font-size: 230%;
+}
+
+.bouton:hover{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 9%;
+    font-size: 300%;
+}
+
+.divbouton{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 .return{
     margin-top: 1%;
     padding-top: 1%;
@@ -34,8 +58,8 @@ h2{
 .return:hover{
     padding-top: 1.1%;
     padding-bottom: 1.1%;
-    padding-left: 2.2%;
-    padding-right: 2.2%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
     margin-top: 0.6%;
     margin-left: 0.4%;
     font-size: 230%;
@@ -90,10 +114,6 @@ button:hover{
     text-decoration: none;
 }
 
-.bouton{
-    display: flex;
-}
-
 .menu{
     margin-top: 13.9%;
 }
@@ -144,4 +164,76 @@ button:hover{
 
 .fac:hover{
     background-color: peachpuff;
+}
+
+#sol{
+    border-color: green;
+    background-color: #d7ffd7;
+    color: green;
+}
+
+#re{
+    border-color: red;
+    background-color: #ffd7d7;
+    color: red;
+}
+
+#la{
+    border-color: blue;
+    background-color: #d7d7ff;
+    color: blue;
+}
+
+#mi{
+    border-color: gold;
+    background-color: #ffffd7;
+    color: gold;
+}
+
+#sol1{
+    border-color: green;
+    background-color: #d7ffd7;
+    color: #d7ffd7;
+}
+
+#re1{
+    border-color: red;
+    background-color: #ffd7d7;
+    color: #ffd7d7;
+}
+
+#la1{
+    border-color: blue;
+    background-color: blue;
+    color: blue;
+}
+
+#mi1{
+    border-color: gold;
+    background-color: gold;
+    color: gold;
+}
+
+#sol2{
+    border-color: black;
+    background-color: transparent;
+    color: black;
+}
+
+#re2{
+    border-color: black;
+    background-color: transparent;
+    color: black;
+}
+
+#la2{
+    border-color: black;
+    background-color: transparent;
+    color: black;
+}
+
+#mi2{
+    border-color: black;
+    background-color: transparent;
+    color: black;
 }
