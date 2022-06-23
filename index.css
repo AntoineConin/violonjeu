@@ -20,12 +20,39 @@ h2{
     font-size: 3.5em;
 }
 
-.bouton{
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-top: 10%;
+.boutonre{
+    margin-top: 300%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 175%;
+    padding-right: 175%;
+    font-size: 230%;
+}
+
+.boutonsol{
+    margin-top: 150%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    padding-left: 125%;
+    padding-right: 125%;
+    font-size: 230%;
+}
+
+.boutonla{
+    margin-top: 295%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 175%;
+    padding-right: 175%;
+    font-size: 230%;
+}
+
+.boutonmi{
+    margin-top: 300%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 175%;
+    padding-right: 175%;
     font-size: 230%;
 }
 
@@ -40,8 +67,10 @@ h2{
 
 .divbouton{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
+    margin-right: 20%;
+    margin-left: 5%;
 }
 
 .return{
